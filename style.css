@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav{
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.log h1{
+    color: black;
+}
+input{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.links{
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.links a{
+    text-decoration: none;
+    color: black;
+
+}
+.intro{
+    height: 500px;
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro h1, .introp{
+
+    color: black;
+    text-align: center; 
+    padding: 0px 30px;
+
+}
+
+.btn-group button{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-group button :hover{
+    background-color: green;
+    color: white;
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 30px;
+   
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    height: 350px;
+    width: 26%;
+    border: none;
+    box-shadow: 3px 3px 3px 3px rgb(213, 182, 182);
+    border-radius: 10px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 30px;
+   
+}
+.about{
+    text-align: center;
+    padding: 50px;
+}
+.about h3{
+   font-family: "Dongle-bold";
+   font-size: 3rem;
+}
+.about p{
+    font-family: "Dongle-regular";
+    font-size: 1.4rem;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+.team-members{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team-member img{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    object-fit: cover;
+}
+.team-member h4{
+    font-family: "Dongle-bold";
+    font-size: 2rem;
+}
+
+
